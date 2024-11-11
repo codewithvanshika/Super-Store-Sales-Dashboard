@@ -1,81 +1,41 @@
 # Super-Store-Sales-Dashboard
-# Flight-Status-Dashboard
-## Power BI Project
+# Power BI Dashboards for Sales Performance
 
-This project is a comprehensive Power BI dashboard analyzing airport operations, focusing on flight delays, time analysis, and detailed flight information to improve efficiency and passenger satisfaction.
-
----
-
-## Overview
-
-The **Overview** page provides a high-level summary of the airport's performance. Key metrics displayed include:
-
-- Total number of flights
-- Average delay times
-- On-time performance percentage
-- Number of delayed flights
-- Passenger satisfaction scores
-
-This page is designed to give a quick snapshot of overall airport efficiency and key performance indicators.
+Power BI dashboards can be a helpful tool to provide insights into sales performance and trends of an organization.  
+The dashboard should include key metrics such as total sales, sales by product, sales by location, sales by customer segment, and sales by product category.  
+It should also provide comparisons of performance to prior years and allow for drill-down into individual markets and products.
 
 ---
 
-## Delays and Time Analysis
-
-The **Delays and Time Analysis** page dives deeper into flight delays and their impact on airport operations. This section includes:
-
-- **Delay Trends**: Visualizations showing the trend of delays over time (daily, weekly, monthly).
-- **Delay Causes**: Analysis of the primary causes of delays (e.g., weather, technical issues, air traffic control).
-- **Peak Delay Times**: Identification of times of day and days of the week with the highest delays.
-- **Delay Distribution**: Distribution of delays by duration (e.g., 0-15 minutes, 16-30 minutes, etc.).
-
-This analysis helps identify patterns and potential areas for operational improvements.
+## Problem Statement:
+Build a **Sales Analysis**, **Product Analysis**, and **Shipping Analysis** Dashboard.
 
 ---
 
-## Detailed Flight Analysis
-
-The **Detailed Flight Analysis** page offers an in-depth look at individual flight data. Key features include:
-
-- **Flight Performance**: Performance metrics for specific flights, including departure and arrival times, delays, and cancellations.
-- **Route Analysis**: Analysis of performance by routes, identifying the best and worst-performing routes.
-- **Airline Comparison**: Comparison of different airlines' performance, including on-time rates and average delays.
-- **Passenger Insights**: Insights into passenger volume, satisfaction, and feedback on specific flights.
-
-This detailed analysis supports granular investigation into specific flights and routes to identify improvement opportunities.
+## Tools Used:
+- Microsoft Power BI
 
 ---
 
-## Getting Started
-
-To get started with the Airport Analysis Dashboard:
-
-1. **Install Power BI Desktop**: Ensure you have Power BI Desktop installed on your machine. You can download it from [Microsoft Power BI](https://powerbi.microsoft.com/downloads/).
-2. **Open the Dashboard File**: Download and open the provided Power BI (.pbix) file.
-3. **Connect to Data Sources**: Make sure the data sources are connected properly. Update any data paths or credentials if necessary.
-4. **Explore the Dashboard**: Navigate through the different pages to explore the visualizations and insights.
+## Data:
+- **Data Source**: [Superstore dataset from Kaggle](https://www.kaggle.com/datasets/laibaanwer/superstore-sales-dataset)
+- **Sales Period**: 2011 to 2014
 
 ---
 
-## Data Sources
+## Dashboards:
 
-The dashboard utilizes the following data sources:
+### Sales Analysis Dashboard:
+The **Sales Analysis Dashboard** allows the sales department to analyze sales and profit trends. The dashboard includes filters to view sales by year and quarter.
 
-- **Flight Data**: Information on flight schedules, departure and arrival times, delays, and cancellations.
-- **Weather Data**: Historical weather data affecting flight operations.
-- **Passenger Feedback**: Data from passenger surveys and feedback forms.
-- **Airport Operations Data**: Data on ground operations, including baggage handling, boarding processes, and security checks.
-
-Ensure these data sources are updated regularly to maintain the accuracy and relevance of the dashboard.
-
----
-
-## Usage
-
-- **Filtering and Slicing**: Use the built-in filters and slicers to focus on specific time periods, airlines, routes, or other dimensions.
-- **Interactivity**: Click on different visual elements to drill down into more detailed data and uncover deeper insights.
-- **Exporting Data**: Export specific data views or visualizations as needed for reporting or presentations.
+- **Key Insights**:
+  - Total Sales: **$3 million**
+  - Total Profit: **$400.9K** (between 2011-2014)
+  - In 2014:
+    - **$1 million** worth of sales and **$119.11K** profit were made.
+    - **46%** of the profit came from the **Technology** product category.
+  - **Yearly Trends**:
+    - **March and April** 2014 saw the highest sales revenue.
+    - **December** (the holiday season) recorded the lowest sales revenue.
 
 ---
-
-Feel free to explore the dashboard and utilize the insights to enhance airport operations!
